@@ -1,0 +1,49 @@
+.room-clearing-queue {
+    margin-top: 20px;
+    background-color: #2c3e50; /* Dark background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  }
+  
+  .room-clearing-queue h3 {
+    color: #ecf0f1; /* Light text color */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .room-clearing-queue table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #34495e; /* Slightly lighter background */
+  }
+  
+  .room-clearing-queue th, .room-clearing-queue td {
+    border: 1px solid #7f8c8d; /* Border color */
+    padding: 10px;
+    text-align: center;
+    color: #ecf0f1; /* Light text color */
+  }
+  
+  .room-clearing-queue th {
+    background-color: #16a085; /* Header background color */
+  }
+  
+  .room-clearing-queue tr:nth-child(even) {
+    background-color: #3a4f63; /* Alternate row background color */
+  }
+  
+  .room-clearing-queue tr:hover {
+    background-color: #1abc9c; /* Hover background color */
+    color: #2c3e50; /* Hover text color */
+  }
+  
+  .room-clearing-queue .table-container {
+    max-height: 400px; /* Max height for the table */
+    overflow-y: auto; /* Vertical scroll for the table */
+  }
+  
+  .room-clearing-queue tr {
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  

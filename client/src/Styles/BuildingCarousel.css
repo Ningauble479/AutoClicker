@@ -1,0 +1,25 @@
+.building-carousel {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+  }
+  
+  .building-slide {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .building-link {
+    display: block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .building-link:hover {
+    text-decoration: underline;
+  }

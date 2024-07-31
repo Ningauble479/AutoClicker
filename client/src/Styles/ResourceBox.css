@@ -1,0 +1,26 @@
+.resource-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  padding: 10px;
+  background-color: #222;
+  color: #f9f9f9;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.resource-box h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+.resource-box p {
+  margin: 5px 0 0 0;
+  font-size: 24px;
+  color: #f9f9f9;
+}

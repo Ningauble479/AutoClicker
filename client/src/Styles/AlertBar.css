@@ -1,0 +1,20 @@
+.alert-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .alert-bar.success {
+    background-color: green;
+    color: white;
+  }
+  
+  .alert-bar.error {
+    background-color: red;
+    color: white;
+  }
+  

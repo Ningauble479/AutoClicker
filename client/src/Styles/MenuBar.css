@@ -1,0 +1,38 @@
+.menu-bar {
+  width: 200px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-bar h2 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.menu-bar li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-bar li:hover {
+  background-color: #34495e;
+}
+
+.menu-bar a {
+  color: white;
+  text-decoration: none;
+}
